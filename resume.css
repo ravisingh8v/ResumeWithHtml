@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #373435;
+}
+
+span{
+    display: inline-block;
+}
+
+/* helper classes  */
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+.fs-1{
+    font-size: 60px;
+}
+.fs-2{
+    font-size: 45px;
+}
+.fs-3{
+    font-size: 35px;
+}
+.fs-4{
+    font-size: 25px;
+}
+.fs-5{
+    font-size: 18px;
+}
+.fs-6{
+    font-size: 15px;
+}
+.emphasis{
+    font-style: italic;
+}
+
+.fw-lighter{
+    font-weight: 300;
+}
+.fw-normal{
+    font-weight: 400;
+}
+.fw-bold{
+    font-weight: 700;
+}
+.fw-bolder{
+    font-weight: 900;
+}
+/* border  */
+.border-bottom{
+    border-bottom: 3px solid rgb(231, 224, 224);
+}
+
+
+.mb-5{
+    margin-bottom: 48px;
+}
+.mb-2{
+    margin-bottom: 15px;
+}
+.mb-1{
+    margin-bottom: 10px;
+}
+.mt-1{
+margin-top: 10px;
+}
+.mt-2{
+    margin-top: 15px;
+}
+.mt-3{
+    margin-top: 25px;
+}
+.mt-4{
+    margin-top: 35px;
+}
+.mt-5{
+    margin-top: 48px;
+}
+.ps-2{
+    padding-left: 18px;
+}
+.pe-2{
+    padding-right: 30px;
+}
+
+/* grid  */
+.row{
+    display: grid;
+    grid-template-areas: 'left right right right';
+    /* grid-template-columns: 6fr ; */
+    grid-template-columns: 2fr 6fr;
+}
+.col-4{
+grid-area: left;
+padding-right: 30px;
+    /* border: 1px solid red; */
+}
+.col-8{
+    grid-area: right;
+    padding-left: 30px;
+    /* border: 1px solid green; */
+    /* grid-template-columns: 8fr; */
+
+}
+/* color  */
+.text-primary{
+    color: #002e58;
+}
+.text-secondary{
+    color: #373435;
+}
+.text-dark{
+    color: #595456;
+}
+.text-desc{
+    color: #535353;
+}
+
+/* main section css start  */
+
+.main-section{
+    padding: 25px 15px;
+    /* width: 75%; */
+    background-color: white;
+    height: 100%;
+    overflow: auto; 
+}
+.heading span{
+color: #002e59;
+opacity: 0.95;
+}
+.heading p {
+    margin-top: 10px;
+    font-size: 18px;
+    padding-right: 60px;
+    line-height: 1.5;
+}
+
+
